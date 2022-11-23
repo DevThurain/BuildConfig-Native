@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    android:layout_marginHorizontal="@dimen/margin_medium_2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRestaurantImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="@dimen/margin_xlarge">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivRestaurantCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/dummy_food"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardViewRestaurantImage"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:text="KFC"
+        android:textSize="@dimen/text_regular_3x"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRestaurantName"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="Fast Food"
+        android:textSize="@dimen/text_regular"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDeliveryPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCategory"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="250 Ks"
+        android:textSize="@dimen/text_regular" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rbRestaurantRating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tvDeliveryPrice"
+        android:layout_alignBottom="@id/tvDeliveryPrice"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_toEndOf="@id/tvDeliveryPrice"
+        android:numStars="5"
+        android:progress="4"
+        android:max="5"
+        android:progressTint="@color/purple_200"
+        />
+
+
+</RelativeLayout>

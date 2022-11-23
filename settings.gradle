@@ -13,4 +13,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "BuildConfig"
-include ':app'
+include ':consumer'
+include ':rider'
+include ':shared'
