@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), MainView {
 
         showSnackBar("consumer app")
         setupPresenter()
+        setupAppBar()
         setupRecyclerView()
         mMainPresenter.onUiReady(this)
     }
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity(), MainView {
     private fun setupPresenter(){
         mMainPresenter = ViewModelProvider(this)[MainPresenterImpl::class.java]
         mMainPresenter.initView(this)
+    }
+
+    private fun setupAppBar(){
+        actionBar?.title = getString(R.string.app_name)
     }
 
     private fun setupRecyclerView() {

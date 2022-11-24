@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00A84B</color>
+    <color name="grab_primary">#00A84B</color>
+    <color name="grab_primary_dark">#017A37</color>
+</resources>

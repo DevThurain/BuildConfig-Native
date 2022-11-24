@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#F2007D</color>
+    <color name="food_panda_primary">#F2007D</color>
+    <color name="food_panda_primary_dark">#A60156</color>
+</resources>
