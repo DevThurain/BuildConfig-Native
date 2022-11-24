@@ -4,7 +4,7 @@ import com.thurainx.shared.data.vos.RestaurantVO
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
 
-class TheRestaurantModelImpl : BasedModel(), TheRestaurantModel {
+object TheRestaurantModelImpl : BasedModel(), TheRestaurantModel {
     override fun getRestaurants(
         onSuccess: (List<RestaurantVO>) -> Unit,
         onError: (String) -> Unit

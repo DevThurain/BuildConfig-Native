@@ -21,4 +21,9 @@ class RestaurantAdapter() : RecyclerView.Adapter<RestaurantViewHolder>() {
     override fun getItemCount(): Int {
         return mRestaurantList.size
     }
+
+    fun setNewData(restaurantList: List<RestaurantVO>){
+        mRestaurantList = restaurantList
+        notifyDataSetChanged()
+    }
 }
