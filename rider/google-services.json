@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "471740626049",
+    "project_id": "keen-shape-369211",
+    "storage_bucket": "keen-shape-369211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471740626049:android:ee85871c893114316c8980",
+        "android_client_info": {
+          "package_name": "com.thurainx.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471740626049-9482gnvs7dqmsgc07fivjban5kd9b44g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thurainx.rider",
+            "certificate_hash": "ce8e9f8e03eebfdd735be22e977e5cfdaa037a94"
+          }
+        },
+        {
+          "client_id": "471740626049-2iamkofkg2ugadkq20d7262butbpcott.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwwzVXR8MLja50kqvJRACtb6nrnDFvOmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471740626049-2iamkofkg2ugadkq20d7262butbpcott.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
